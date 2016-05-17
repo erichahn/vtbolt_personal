@@ -1,0 +1,23 @@
+* Packet Structure
+	- Header LRC
+	- Packet ID
+	- Packet Length
+	- CRC 16
+	- Data
+* Data Types
+	- u8
+	- u8
+	- u8
+	- u16 (size 2)
+* LRC Longitudinal Redundancy Check
+	- LRC = ((packet_id + packet_length + crc[0] + crc[1])^0xFF) + 1
+* Packet ID
+	- System Packet 0-19
+	- State Packet  20-179
+	- Configuration Packet 180-255
+* Packet Length
+	- 0-255 bytes
+	- from byte index 5 and onwards
+* CRC
+	- CRC16-CCITT with starting value 0xFFFF
+	- Only covers packet data
