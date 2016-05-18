@@ -1,0 +1,2 @@
+1. To install ros kinetic follow this page: http://wiki.ros.org/kinetic/Installation/Ubuntu
+2. 
