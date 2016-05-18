@@ -1,0 +1,7 @@
+1. Follow the install instructions
+2. Now that you're ready to go read about what unit testing is and why it's useful: http://wiki.ros.org/UnitTesting
+ http://www.ibm.com/developerworks/aix/library/au-googletestingframework.html
+3. Now that you have an understanding of what testing your code is all about let's get started.
+4. ROS is similar to QT in that is uses a sort of signals, slots, and services system to get robots moving.
+5. Read through and follow some of the tutorials to get more comfortable with ROS before diving in deeper.
+6. http://wiki.ros.org/ROS/Tutorials
