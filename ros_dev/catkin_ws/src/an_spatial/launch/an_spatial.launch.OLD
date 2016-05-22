@@ -1,0 +1,6 @@
+
+<launch>
+  <node name="an_spatial_ins" pkg="an_spatial" output="screen">
+    <rosparam command="load" file="$(find an_spatial/config/imu.yaml"/>
+  </node>
+</launch>

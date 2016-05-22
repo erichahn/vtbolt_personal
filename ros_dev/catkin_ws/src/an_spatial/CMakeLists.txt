@@ -1,16 +1,24 @@
 cmake_minimum_required(VERSION 2.8.3)
 project(an_spatial)
 
+# check c++11
+include(CheckCXXCompilerFlag)
+CHECK_CXX_COMPILER_FLAG("-std=c++11" COMPILER_SUPPORTS_CXX11)
+
+if(COMPILER_SUPPORTS_CXX11)
+  set(CMAKE_CXX_FLAGS "-std=c++11 -Wall -Wshadow -fPIC")
+else()
+  message(FATAL_ERROR "The compiler ${CMAKE_CXX_COMPILER} has no C++11 support. Please use a different C++ compiler.")
+endif()
+
 ## Find catkin macros and libraries
 ## if COMPONENTS list like find_package(catkin REQUIRED COMPONENTS xyz)
 ## is used, also find other catkin packages
 find_package(catkin REQUIRED COMPONENTS
-  roscpp
-  sensor_msgs
-  serial
+  # roscpp
+  # sensor_msgs
+  # serial
   std_msgs
-  tf
-  pluginlib
 )
 
 ## System dependencies are found with CMake's conventions
@@ -122,7 +130,7 @@ include_directories(
 
 ## Declare a C++ library
 # add_library(an_spatial
-#   src/${PROJECT_NAME}/an_spatial.cpp
+#   src/${PROJECT_NAME}/an_spatial_node.cpp
 # )
 
 ## Add cmake target dependencies of the library
@@ -130,17 +138,17 @@ include_directories(
 ## either from message generation or dynamic reconfigure
 # add_dependencies(an_spatial ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
 
-## Declare a C++ executable
-# add_executable(an_spatial_node src/an_spatial_node.cpp)
+# Declare a C++ executable
+add_executable(an_spatial_node src/an_spatial_node.cpp)
 
 ## Add cmake target dependencies of the executable
 ## same as for the library above
-# add_dependencies(an_spatial_node ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
+add_dependencies(an_spatial_node ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
 
 ## Specify libraries to link a library or executable target against
-# target_link_libraries(an_spatial_node
-#   ${catkin_LIBRARIES}
-# )
+target_link_libraries(an_spatial_node
+  ${catkin_LIBRARIES}
+)
 
 #############
 ## Install ##
@@ -164,11 +172,11 @@ include_directories(
 # )
 
 ## Mark cpp header files for installation
-# install(DIRECTORY include/${PROJECT_NAME}/
-#   DESTINATION ${CATKIN_PACKAGE_INCLUDE_DESTINATION}
-#   FILES_MATCHING PATTERN "*.h"
-#   PATTERN ".svn" EXCLUDE
-# )
+install(DIRECTORY include/${PROJECT_NAME}/
+  DESTINATION ${CATKIN_PACKAGE_INCLUDE_DESTINATION}
+  FILES_MATCHING PATTERN "*.h"
+  PATTERN ".svn" EXCLUDE
+)
 
 ## Mark other files for installation (e.g. launch and bag files, etc.)
 # install(FILES

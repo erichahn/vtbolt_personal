@@ -19,3 +19,16 @@
 /home/urk/Development/vtbolt_personal/ros_dev/catkin_ws/build/gtest/CMakeFiles/gtest_main.dir
 /home/urk/Development/vtbolt_personal/ros_dev/catkin_ws/build/gtest/CMakeFiles/install/strip.dir
 /home/urk/Development/vtbolt_personal/ros_dev/catkin_ws/build/gtest/CMakeFiles/install/local.dir
+/home/urk/Development/vtbolt_personal/ros_dev/catkin_ws/build/an_spatial/CMakeFiles/install.dir
+/home/urk/Development/vtbolt_personal/ros_dev/catkin_ws/build/an_spatial/CMakeFiles/rebuild_cache.dir
+/home/urk/Development/vtbolt_personal/ros_dev/catkin_ws/build/an_spatial/CMakeFiles/std_msgs_generate_messages_nodejs.dir
+/home/urk/Development/vtbolt_personal/ros_dev/catkin_ws/build/an_spatial/CMakeFiles/std_msgs_generate_messages_py.dir
+/home/urk/Development/vtbolt_personal/ros_dev/catkin_ws/build/an_spatial/CMakeFiles/std_msgs_generate_messages_lisp.dir
+/home/urk/Development/vtbolt_personal/ros_dev/catkin_ws/build/an_spatial/CMakeFiles/list_install_components.dir
+/home/urk/Development/vtbolt_personal/ros_dev/catkin_ws/build/an_spatial/CMakeFiles/install/strip.dir
+/home/urk/Development/vtbolt_personal/ros_dev/catkin_ws/build/an_spatial/CMakeFiles/std_msgs_generate_messages_eus.dir
+/home/urk/Development/vtbolt_personal/ros_dev/catkin_ws/build/an_spatial/CMakeFiles/std_msgs_generate_messages_cpp.dir
+/home/urk/Development/vtbolt_personal/ros_dev/catkin_ws/build/an_spatial/CMakeFiles/install/local.dir
+/home/urk/Development/vtbolt_personal/ros_dev/catkin_ws/build/an_spatial/CMakeFiles/an_spatial_node.dir
+/home/urk/Development/vtbolt_personal/ros_dev/catkin_ws/build/an_spatial/CMakeFiles/edit_cache.dir
+/home/urk/Development/vtbolt_personal/ros_dev/catkin_ws/build/an_spatial/CMakeFiles/test.dir

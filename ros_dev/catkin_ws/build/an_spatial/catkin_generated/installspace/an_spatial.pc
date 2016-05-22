@@ -1,0 +1,8 @@
+prefix=/home/urk/Development/vtbolt_personal/ros_dev/catkin_ws/install
+
+Name: an_spatial
+Description: Description of an_spatial
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/urk/Development/vtbolt_personal/ros_dev/catkin_ws/install/lib 
+Requires: 

@@ -5,3 +5,4 @@
 4. ROS is similar to QT in that is uses a sort of signals, slots, and services system to get robots moving.
 5. Read through and follow some of the tutorials to get more comfortable with ROS before diving in deeper.
 6. http://wiki.ros.org/ROS/Tutorials
+7. Also take a look at this nice detailed tutorial from Texas. Probably came up because I'm in Texas, but it is good. http://www.cs.utexas.edu/~todd/cs378/slides/Week8a.pdf
