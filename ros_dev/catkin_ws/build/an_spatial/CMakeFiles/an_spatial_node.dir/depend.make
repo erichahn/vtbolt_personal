@@ -4,6 +4,8 @@
 an_spatial/CMakeFiles/an_spatial_node.dir/src/an_spatial_node.cpp.o: /home/urk/Development/vtbolt_personal/ros_dev/catkin_ws/src/an_spatial/src/an_spatial_node.cpp
 an_spatial/CMakeFiles/an_spatial_node.dir/src/an_spatial_node.cpp.o: /opt/ros/kinetic/include/XmlRpcDecl.h
 an_spatial/CMakeFiles/an_spatial_node.dir/src/an_spatial_node.cpp.o: /opt/ros/kinetic/include/XmlRpcValue.h
+an_spatial/CMakeFiles/an_spatial_node.dir/src/an_spatial_node.cpp.o: /opt/ros/kinetic/include/geometry_msgs/Twist.h
+an_spatial/CMakeFiles/an_spatial_node.dir/src/an_spatial_node.cpp.o: /opt/ros/kinetic/include/geometry_msgs/Vector3.h
 an_spatial/CMakeFiles/an_spatial_node.dir/src/an_spatial_node.cpp.o: /opt/ros/kinetic/include/ros/advertise_options.h
 an_spatial/CMakeFiles/an_spatial_node.dir/src/an_spatial_node.cpp.o: /opt/ros/kinetic/include/ros/advertise_service_options.h
 an_spatial/CMakeFiles/an_spatial_node.dir/src/an_spatial_node.cpp.o: /opt/ros/kinetic/include/ros/assert.h
@@ -58,5 +60,4 @@ an_spatial/CMakeFiles/an_spatial_node.dir/src/an_spatial_node.cpp.o: /opt/ros/ki
 an_spatial/CMakeFiles/an_spatial_node.dir/src/an_spatial_node.cpp.o: /opt/ros/kinetic/include/ros/wall_timer.h
 an_spatial/CMakeFiles/an_spatial_node.dir/src/an_spatial_node.cpp.o: /opt/ros/kinetic/include/ros/wall_timer_options.h
 an_spatial/CMakeFiles/an_spatial_node.dir/src/an_spatial_node.cpp.o: /opt/ros/kinetic/include/rosconsole/macros_generated.h
-an_spatial/CMakeFiles/an_spatial_node.dir/src/an_spatial_node.cpp.o: /opt/ros/kinetic/include/std_msgs/String.h
 

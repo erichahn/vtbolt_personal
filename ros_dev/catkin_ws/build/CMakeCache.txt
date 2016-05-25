@@ -261,6 +261,12 @@ an_spatial_LIB_DEPENDS:STATIC=
 //Value Computed by CMake
 an_spatial_SOURCE_DIR:STATIC=/home/urk/Development/vtbolt_personal/ros_dev/catkin_ws/src/an_spatial
 
+//Value Computed by CMake
+an_spatial_driver_BINARY_DIR:STATIC=/home/urk/Development/vtbolt_personal/ros_dev/catkin_ws/build/an_spatial_driver
+
+//Value Computed by CMake
+an_spatial_driver_SOURCE_DIR:STATIC=/home/urk/Development/vtbolt_personal/ros_dev/catkin_ws/src/an_spatial_driver
+
 //The directory containing a CMake configuration file for catkin.
 catkin_DIR:PATH=/opt/ros/kinetic/share/catkin/cmake
 
@@ -317,7 +323,7 @@ gtest_force_shared_crt:BOOL=OFF
 gtest_main_LIB_DEPENDS:STATIC=general;-lpthread;general;gtest;
 
 //Path to a library.
-lib:FILEPATH=/opt/ros/kinetic/lib/librostime.so
+lib:FILEPATH=/opt/ros/kinetic/lib/libxmlrpcpp.so
 
 //The directory containing a CMake configuration file for message_filters.
 message_filters_DIR:PATH=/opt/ros/kinetic/share/message_filters/cmake

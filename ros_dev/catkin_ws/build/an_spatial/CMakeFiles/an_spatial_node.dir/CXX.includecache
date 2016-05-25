@@ -8,10 +8,10 @@
 
 /home/urk/Development/vtbolt_personal/ros_dev/catkin_ws/src/an_spatial/src/an_spatial_node.cpp
 ros/ros.h
-/home/urk/Development/vtbolt_personal/ros_dev/catkin_ws/src/an_spatial/src/ros/ros.h
-std_msgs/String.h
-/home/urk/Development/vtbolt_personal/ros_dev/catkin_ws/src/an_spatial/src/std_msgs/String.h
-sstream
+-
+geometry_msgs/Twist.h
+-
+stdlib.h
 -
 
 /opt/ros/kinetic/include/XmlRpcDecl.h
@@ -28,6 +28,42 @@ string
 vector
 -
 time.h
+-
+
+/opt/ros/kinetic/include/geometry_msgs/Twist.h
+string
+-
+vector
+-
+map
+-
+ros/types.h
+-
+ros/serialization.h
+-
+ros/builtin_message_traits.h
+-
+ros/message_operations.h
+-
+geometry_msgs/Vector3.h
+-
+geometry_msgs/Vector3.h
+-
+
+/opt/ros/kinetic/include/geometry_msgs/Vector3.h
+string
+-
+vector
+-
+map
+-
+ros/types.h
+-
+ros/serialization.h
+-
+ros/builtin_message_traits.h
+-
+ros/message_operations.h
 -
 
 /opt/ros/kinetic/include/ros/advertise_options.h
@@ -657,20 +693,4 @@ ros/forwards.h
 /opt/ros/kinetic/include/ros/ros/forwards.h
 
 /opt/ros/kinetic/include/rosconsole/macros_generated.h
-
-/opt/ros/kinetic/include/std_msgs/String.h
-string
--
-vector
--
-map
--
-ros/types.h
--
-ros/serialization.h
--
-ros/builtin_message_traits.h
--
-ros/message_operations.h
--
 

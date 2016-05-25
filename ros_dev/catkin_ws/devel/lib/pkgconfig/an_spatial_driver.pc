@@ -1,0 +1,8 @@
+prefix=/home/urk/Development/vtbolt_personal/ros_dev/catkin_ws/devel
+
+Name: an_spatial_driver
+Description: Description of an_spatial_driver
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/urk/Development/vtbolt_personal/ros_dev/catkin_ws/devel/lib 
+Requires: 

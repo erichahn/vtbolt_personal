@@ -5,6 +5,8 @@ an_spatial/CMakeFiles/an_spatial_node.dir/src/an_spatial_node.cpp.o
  /home/urk/Development/vtbolt_personal/ros_dev/catkin_ws/src/an_spatial/src/an_spatial_node.cpp
  /opt/ros/kinetic/include/XmlRpcDecl.h
  /opt/ros/kinetic/include/XmlRpcValue.h
+ /opt/ros/kinetic/include/geometry_msgs/Twist.h
+ /opt/ros/kinetic/include/geometry_msgs/Vector3.h
  /opt/ros/kinetic/include/ros/advertise_options.h
  /opt/ros/kinetic/include/ros/advertise_service_options.h
  /opt/ros/kinetic/include/ros/assert.h
@@ -59,4 +61,3 @@ an_spatial/CMakeFiles/an_spatial_node.dir/src/an_spatial_node.cpp.o
  /opt/ros/kinetic/include/ros/wall_timer.h
  /opt/ros/kinetic/include/ros/wall_timer_options.h
  /opt/ros/kinetic/include/rosconsole/macros_generated.h
- /opt/ros/kinetic/include/std_msgs/String.h
